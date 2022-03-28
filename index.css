@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+
+    }
+}
+
+.header {
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569}
+
+.nav-link:hover {
+    color: #482ff7
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7
+}
+
+.banner {
+    background-color: #ffb27e;
+    font-size: 20px;
+    padding: 30px 22px 150px 22px;
+    background-image: url(heroImg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.Award {
+    background-color: tomato;
+    background-image: url(Award.jpg);
+    padding: 30px 30px 200px 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Map {
+    background-color: rgb(3, 29, 83);
+    padding-bottom: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: white;
+    
+}
+
+.kkMap {
+    width: 90%;
+}
+
+.menuHeader {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.menu2 {
+    background-image: url(menuBackground.JPG);
+    background-size: 100% ;
+    font-size: 20px;
+    padding: 20px 15px 500px 30px;
+       
+}
+
+.location2 {
+    background-color: rgb(141, 90, 61);
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact2 {
+    background-image: url(contactBackground.jpeg);
+    
+    padding: 30px 30px 140px 30px;
+    border: 0px;
+    margin: 0px;
+    color: white;
+    
+    
+}
+
+.socials {
+    width: 200px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+
+
+
+
+
+
+.footer {
+    background-color: rgb(43, 21, 0);
+    padding: 30px;
+    border: 0px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
