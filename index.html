@@ -6,6 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
         <title>Document</title>
+        <script type="text/javascript">
+            function fn1()
+            {
+                var str = document.getElementById("name").value;
+                alert("Thank you "+str +" for signing up");
+
+            }
+
+        </script>
 </head>
 
 <body>
@@ -127,15 +136,15 @@
 
                 <form id="form" class="form">
                     <div class="email">
-                        <p>Email:</p> <input type="email" name="email" id="email"><br>
+                        <p>Email:</p> <input type="email" name="email" id="email" required><br>
                     </div>
                     <br>
                     <div class="name">
-                        <p>Name:</p> <input type="text" name="name" id="name">
+                        <p>Name:</p> <input name="name" id="name" required>
                     </div>    
                     <br>
                     <div class="submit">
-                        <button type="submit" id="submit1">Submit</button>
+                        <button onclick="fn1()" type="submit" id="submit1">Submit</button>
                     </div>
                 </form>
     
