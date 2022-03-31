@@ -74,6 +74,79 @@ label {
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner {
+        font-size: 26px !important;
+        padding: 20px 22px 15px 18px;
+        min-height: 350px;
+        background-image: url(./images/heroImg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
+
+    .banner2 {
+        font-size: 24px !important;
+    }
+
+    .Award {
+        background-image: url(./images/Award.jpg);
+        padding: 50px 30px 15px 30px;
+        padding-top: 100px !important;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: white;
+        margin: auto;
+        text-align: center;
+        font-size: 30px !important;
+        min-height: 400px;
+    }
+
+    .Map {
+        background-color: rgb(3, 29, 83);
+        padding-bottom: 60px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        color: white;
+        text-align: center;
+        font-size: 22px !important;
+    }
+
+
+    .coffee {
+        background-image: url(./images/menuBackground.JPG);
+        background-size:  cover;
+        background-repeat: no-repeat;
+        font-size: 18px !important;
+        padding: 20px 15px 100px 30px;
+           
+    }
+
+    .contact {
+        background-image: url(./images/contactBackground.jpeg);
+        padding: 30px 30px 50px 30px;
+        border: 0px;
+        margin: 0px;
+        color: white;    
+        font-size: 14px;
+        
+    }
+
+
+}
+
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
@@ -95,101 +168,103 @@ a {
 
 
 
-.nav-link {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #475569}
 
-.nav-link:hover {
-    color: #482ff7
-}
-
-.nav-logo {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: #482ff7
-}
 
 .banner {
-    background-color: #ffb27e;
     font-size: 20px;
-    padding: 30px 22px 150px 22px;
+    padding: 20px 22px 15px 18px;
     background-image: url(./images/heroImg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    
+    background-size: 100%; 
+}
+
+.banner2 {
+    font-size: 14px;
 }
 
 .Award {
-    background-color: tomato;
     background-image: url(./images/Award.jpg);
-    padding: 30px 30px 200px 30px;
+    padding: 30px 30px 15px 30px;
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
     margin: auto;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .Map {
     background-color: rgb(3, 29, 83);
-    padding-bottom: 250px;
+    padding-bottom: 60px;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
     color: white;
-    
+    text-align: center;
+    font-size: 14px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .kkMap {
     width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .menuHeader {
     text-align: center;
     padding-bottom: 15px;
+    font-size: 26px;
 }
 
-.menu2 {
+.coffee {
     background-image: url(./images/menuBackground.JPG);
-    background-size: 100% ;
-    font-size: 20px;
-    padding: 20px 15px 500px 30px;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 20px 15px 100px 30px;
        
 }
 
-.location2 {
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newsLetter {
     background-color: rgb(141, 90, 61);
     padding: 30px 30px 30px 30px;
     margin: auto;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
 }
 
-.contact2 {
+.contact {
     background-image: url(./images/contactBackground.jpeg);
-    
-    padding: 30px 30px 140px 30px;
+    padding: 30px 30px 50px 30px;
     border: 0px;
     margin: 0px;
-    color: white;
-    
-    
+    color: white;    
+    font-size: 14px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .socials {
     width: 200px;
 }
-
-.column {
-    float: left;
-    width: 50%;
-  }
-
-
-
-
 
 
 .footer {
