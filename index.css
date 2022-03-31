@@ -86,6 +86,15 @@ label {
         
     }
 
+    .fair {
+        width: 40%;
+        margin-top: 15px;
+        display: none;
+    }
+    .paper {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -132,6 +141,12 @@ label {
         min-height: 400px;
     }
 
+    .fair {
+        width: 40%;
+        margin-top: 15px;
+        display: none;
+    }
+
     .Map {
         background-color: rgb(3, 29, 83);
         padding-bottom: 60px;
@@ -151,6 +166,15 @@ label {
         font-size: 18px !important;
         padding: 20px 15px 100px 30px;
            
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .paper {
+        display: none;
     }
 
     .contact {
@@ -198,6 +222,8 @@ label {
         min-height: 600px;
     }
 
+
+
     .Map {
         background-color: rgb(3, 29, 83);
         padding-bottom: 60px;
@@ -214,6 +240,14 @@ label {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .max {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .paper {
+        width: 40%;
+    }
 
     .contact {
         background-image: url(./images/contactBackground.jpeg);
@@ -283,6 +317,12 @@ a {
     font-size: 14px;
 }
 
+.fair {
+    width: 40%;
+    margin-top: 15px;
+    
+}
+
 .Map {
     background-color: rgb(3, 29, 83);
     padding-bottom: 60px;
@@ -333,6 +373,11 @@ a {
     margin: auto;
     text-align: center;
     font-size: 14px;
+}
+
+.join {
+    display: grid;
+    grid-template-rows: max-content;
 }
 
 .contact {
