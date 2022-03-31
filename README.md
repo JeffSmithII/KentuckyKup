@@ -1,1 +1,3 @@
 # KentuckyKup
+
+In this project, I demonstrate my knowledge of the Front end Web Development skills that I have learned over the past three months. The three features that I’ve chosen to display those skills are creating a hamburger menu with CSS. I used CSS Grid to change the layout of the webpage for different media queries. I also used JavaScript to capture a value input by a user to display the value in an alert message.
