@@ -14,6 +14,8 @@ html, body {
 
 }
 
+
+
 .navbar {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
@@ -26,16 +28,6 @@ html, body {
     margin: 0 30px 0 0;
 }
 
-
-
-.nav-menu a {
-    clear: right;
-    color: rgb(177, 137, 78);
-    margin: 0 10px;
-    line-height: 70px;
-    
-}
-
 label {
     margin: 0 40px 0 0;
     font-size: 26px;
@@ -46,22 +38,16 @@ label {
 
 }
 
-#toggle {
-    display: none;
-}
 
-@media only screen and (max-width: 750px) {
     label {
         display: block;
         cursor: pointer;
     }
-    .nav-menu {
-        text-align: center;
-        width: 100%;
+    
+    #toggle {
         display: none;
-        
-
     }
+
 
     .nav-menu {
         text-align: center;
@@ -78,6 +64,7 @@ label {
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
+        color: rgb(177, 137, 78);
         
     }
 
@@ -91,11 +78,50 @@ label {
         margin-top: 15px;
         display: none;
     }
+
     .paper {
         display: none;
     }
 
+@media only screen and (min-width: 768px) {
+
+    label {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: none;
+        width: 26px;
+        float: right;
+        display: ;
+    }
+
+
+    label {
+        display: none;
+        cursor: pointer;
+    }
+
+    .nav-menu a {
+        text-align: ;
+        color: rgb(177, 137, 78);
+        margin: 0 10px; 
+        border-radius: 50%;
+        background-color: rgb(255, 252, 239);
+        
+    }
+
+    .nav-menu {
+        text-align: center;
+        display: contents;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: absolute;
+    }
+
+
 }
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -222,7 +248,11 @@ label {
         min-height: 600px;
     }
 
-
+    .fair {
+        width: 40%;
+        margin-top: 15px;
+        display: inline;
+    }
 
     .Map {
         background-color: rgb(3, 29, 83);
@@ -257,6 +287,10 @@ label {
         color: white;    
         font-size: 14px;
         
+    }
+
+    .paper {
+        display: inline;
     }
 
     .grid3 {
@@ -317,11 +351,6 @@ a {
     font-size: 14px;
 }
 
-.fair {
-    width: 40%;
-    margin-top: 15px;
-    
-}
 
 .Map {
     background-color: rgb(3, 29, 83);
