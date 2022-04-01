@@ -144,6 +144,7 @@ label {
     .banner {
         font-size: 26px !important;
         padding: 20px 22px 15px 18px;
+        padding-top: 80px !important;
         min-height: 350px;
         background-image: url(./images/heroImg.jpg);
         background-repeat: no-repeat;
@@ -186,7 +187,7 @@ label {
 
 
     .coffee {
-        background-image: url(./images/menuBackground.JPG);
+        background-image: url(./images/menuBackgroundTablet.jpg);
         background-size:  cover;
         background-repeat: no-repeat;
         font-size: 18px !important;
@@ -225,6 +226,7 @@ label {
     .banner {
         font-size: 36px !important;
         padding: 20px 22px 15px 18px;
+        padding-top: 80px !important;
         min-height: 500px;
         background-image: url(./images/heroImg.jpg);
         background-repeat: no-repeat;
