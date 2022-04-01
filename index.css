@@ -238,7 +238,6 @@ a {
         display: none;
         width: 26px;
         float: right;
-        display: ;
     }
 
 
@@ -248,7 +247,6 @@ a {
     }
 
     .nav-menu a {
-        text-align: ;
         color: rgb(177, 137, 78);
         margin: 0 10px; 
         border-radius: 50%;
@@ -389,7 +387,7 @@ a {
         background-image: url(./images/Award.jpg);
         padding: 50px 30px 15px 30px;
         padding-top: 100px !important;
-        background-size: contain%;
+        background-size: 100%;
         background-repeat: no-repeat;
         color: white;
         margin: auto;
